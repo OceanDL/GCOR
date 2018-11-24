@@ -22,10 +22,11 @@ def recursive_assemble(tree, grammar):
     # Raise error if no valid sentential form was found
     if sentential_form is None:
         raise ValueError('Did not find a construction for the sentence tree. Tree: {}'.format(tree))
-    # Build a lsit of sentence compoents
+    # Build a list of sentence compoents
     sentence_components = list()
     for token in sentential_form.split():
         subtree = subtree_label_dict[token].popleft()
         assembled_component = recursive_assemble(subtree, grammar)
         sentence_components.append(assembled_component)
     return ' '.join(sentence_components)
+
