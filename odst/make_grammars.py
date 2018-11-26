@@ -2,24 +2,26 @@ from parse import Parser
 from nltk.tree import Tree
 from nltk.tbl.rule import Rule
 
-parser = Parser()
-parsedSents = set()
-corpusFile = open("../corpus.txt", "r")
+if __name__ == '__main__':
 
-for line in corpusFile.readlines():
-    tree = parser.parse(line)
-    parsedSents.add(tree)
+    parser = Parser()
+    parsedSents = set()
+    corpusFile = open("../corpus.txt", "r")
 
-ruleset = set()
+    for line in corpusFile.readlines():
+        tree = parser.parse(line)
+        parsedSents.add(tree)
 
-tree: Tree
-rule: Rule
-for iterable in parsedSents:
-    for tree in iterable:
-        for rule in tree.productions():
-            ruleset.add(rule)
+    ruleset = set()
 
-grammars = open("../grammars.txt", mode = "r+", encoding = "utf-8")
+    tree: Tree
+    rule: Rule
+    for iterable in parsedSents:
+        for tree in iterable:
+            for rule in tree.productions():
+                ruleset.add(rule)
 
-for rule in ruleset:
-    grammars.write(rule.__str__() + "\n")
+    grammars = open("../grammars.txt", mode = "r+", encoding = "utf-8")
+
+    for rule in ruleset:
+        grammars.write(rule.__str__() + "\n")
