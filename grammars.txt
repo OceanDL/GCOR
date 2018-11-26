@@ -1,0 +1,218 @@
+NN -> 'lawn'
+S -> NP , VP .
+NP -> NN NN
+NNP -> 'John'
+VB -> 'repair'
+VB -> 'fix'
+VP -> VBP ADJP
+NNS -> 'dishes'
+VP -> VBP S
+NNS -> 'tasks'
+VB -> 'please'
+NN -> 'laundry'
+VB -> 'walk'
+VB -> 'mow'
+FRAG -> INTJ , NP .
+NN -> 'drink'
+SQ -> VP .
+NP -> NP PP .
+VB -> 'prepare'
+VBZ -> 'is'
+VBG -> 'going'
+VP -> VBP NP
+NP -> JJ NN
+NN -> 'dishwasher'
+MD -> 'Can'
+UH -> 'Hello'
+VP -> VB NP
+VBD -> 'were'
+PRP -> 'he'
+VB -> 'do'
+VB -> 'Throw'
+ADJP -> JJ
+VP -> MD VP
+NP -> PRP
+VBP -> 'need'
+NN -> 'hand'
+NN -> 'job'
+PRP -> 'you'
+S -> NP NP
+NN -> 'trash'
+NN -> 'bulb'
+NP -> DT NN NNS
+NN -> 'plug'
+NN -> 'home'
+VP -> VBD ADJP
+VBG -> 'organizing'
+VB -> 'Fold'
+NN -> 'TV'
+IN -> 'about'
+JJ -> 'clean'
+S -> VP
+, -> ','
+NN -> 'car'
+VP -> VB VP
+JJ -> 'sweeping'
+PRP$ -> 'my'
+NNS -> 'plants'
+NN -> 'clock'
+NN -> 'stove'
+NN -> 'office'
+MD -> 'Would'
+NP -> DT NN
+NN -> 'window'
+VP -> TO VP
+VP -> VBG
+NP -> NP NP .
+DT -> 'any'
+NN -> 'counter'
+NN -> 'house'
+NN -> 'garage'
+VBP -> 'have'
+IN -> 'After'
+VP -> VB PRT NP
+VBG -> 'turning'
+VP -> VBP VP
+VBD -> 'cleaned'
+NP -> DT
+NNS -> 'counters'
+NN -> 'food'
+NN -> 'remark'
+VBG -> 'weeding'
+NP -> PRP$ NN
+NN -> 'bathroom'
+NP -> JJ
+UH -> 'Please'
+VB -> 'trimm'
+VB -> 'Remember'
+PP -> IN NP
+VBP -> 'are'
+NN -> 'toilet'
+VP -> VB PP
+NN -> 'drawer'
+VP -> VB NP PP PP
+VP -> VP , S
+DT -> 'This'
+NN -> 'table'
+VBG -> 'serving'
+VB -> 'clean'
+VB -> 'water'
+PRP -> 'You'
+S -> NP VP .
+NN -> 'john'
+VP -> VBZ NP
+PRT -> RP
+NN -> 'oven'
+MD -> 'should'
+S -> ADVP , VP .
+. -> '.'
+ROOT -> SQ
+NN -> 'bed'
+VB -> 'forget'
+VP -> MD
+IN -> 'after'
+VP -> VB S
+VBP -> 'am'
+NN -> 'kitchen'
+VB -> 'organize'
+VP -> VB SBAR
+NP -> NP , NP .
+JJ -> 'Good'
+NP -> JJ DT NN
+VP -> VBG NP
+NP -> NNS
+NP -> PRP$ NN NNS
+VBG -> 'washing'
+NN -> 'cooking'
+VP -> VBP RB VP
+VBG -> 'dusting'
+IN -> 'in'
+JJ -> 'light'
+PRP -> 'I'
+PP -> TO NP
+NP -> DT JJ NN
+NP -> DT NNS
+VBG -> 'vaccuuming'
+VBG -> 'boiling'
+TO -> 'to'
+VB -> 'Use'
+NNS -> 'tools'
+PRP -> 'He'
+VBG -> 'setting'
+VBG -> 'planting'
+VBG -> 'baking'
+JJ -> 'Clean'
+PRP$ -> 'his'
+ADVP -> RB
+ROOT -> S
+VP -> VBP
+S -> INTJ VP .
+NP -> NN
+VBG -> 'pouring'
+VB -> 'Do'
+VB -> 'Flip'
+VB -> 'feed'
+IN -> 'as'
+ADJP -> JJ SBAR
+NN -> 'care'
+RB -> "n't"
+NN -> 'switch'
+VP -> VBZ VP
+NNS -> 'clothes'
+NN -> 'sink'
+IN -> 'on'
+NN -> 'bedroom'
+NN -> 'dog'
+SQ -> MD NP VP .
+NP -> IN DT
+VP -> VB
+PP -> IN S
+VB -> 'replace'
+NN -> 'water'
+NN -> 'cleaning'
+NN -> 'coffee'
+VB -> 'wash'
+VBP -> 'whistle'
+DT -> 'a'
+NN -> 'work'
+S -> PP , NP VP .
+VBP -> 'want'
+ROOT -> NP
+S -> NP VP
+NP -> NP PP
+NN -> 'bush'
+DT -> 'the'
+NN -> 'wall'
+VB -> 'mind'
+ROOT -> FRAG
+DT -> 'that'
+VB -> 'make'
+VBP -> "'m"
+SBAR -> S
+VB -> 'expect'
+PRP -> 'We'
+DT -> 'The'
+S -> VP .
+VP -> VBG S
+NNS -> 'repairs'
+VBG -> 'mopping'
+NP -> NNP
+MD -> 'can'
+NN -> 'mail'
+NNS -> 'floors'
+INTJ -> UH
+VP -> VBD NP
+VB -> 'Get'
+NN -> 'yard'
+. -> '?'
+VBG -> 'making'
+VP -> VBG PP
+S -> INTJ , NP VP .
+RB -> 'Also'
+RP -> 'away'
+NN -> 'plumbing'
+PRP -> 'him'
+NN -> 'furniture'
+VBP -> 'Do'
+NN -> 'household'
+VBG -> 'ironing'
