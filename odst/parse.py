@@ -1,7 +1,6 @@
 import os
 from nltk.parse.corenlp import CoreNLPParser
 
-
 class Parser:
 
     def __init__(self):
