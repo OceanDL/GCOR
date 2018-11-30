@@ -25,14 +25,29 @@ def trim_nonterminals(rules_as_string):
 
 def join_productions(rules):
     productions = defaultdict(list)
+    # Get lists of productions for each non-terminal
     for rule in rules.splitlines():
         origin, product = rule.split('->')
         origin, product = origin.strip(), product.strip()
         productions[origin].append(product)
+    all_nonterminals = set()
+    for v in productions.values():
+        for prod in v:
+            all_nonterminals.update(prod.split())
+    for nt in all_nonterminals:
+        # Trigger the creation of default object for all non-terminals in
+        # the grammar
+        productions[nt]
     for k in productions:
         productions[k].append("'{}'".format(k))
     return '\n'.join(['{} -> {}'.format(k, ' | '.join(v)) for k, v in productions.items()])
 
+
+def escape_specials(rules):
+    rules = rules.replace('. ', 'PUNC_PERIOD ')
+    rules = rules.replace(', ', 'PUNC_COMMA ')
+    rules = rules.replace('PRP$ ', 'PRPS ')
+    return rules
 
 if __name__ == '__main__':
     print('Parsing sentences...')
@@ -41,8 +56,11 @@ if __name__ == '__main__':
     filtered = trim_nonterminals(raw_rules)
     print('Joining productions...')
     joined = join_productions(filtered)
+    print('Handling special characters in non-terminals...')
+    escaped = escape_specials(joined)
     print('Done!\n')
-    print(joined)
-    with open('../grammar.txt', 'w') as f:
-        f.write(joined)
+    print()
+    print(escaped)
+    with open('../grammar_en.txt', 'w') as f:
+        f.write(escaped)
 
