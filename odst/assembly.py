@@ -21,11 +21,11 @@ def recursive_assemble(tree, grammar):
         sentence_label_counts = Counter(sentence)
         if sentence_label_counts == subtree_label_counts:
             sentential_form = sentence
+            print('Using production <{}> for node {}.'.format(' '.join(sentential_form), tree.label()))
             break
-    # Raise error if no valid sentential form was found
     if sentential_form is None:
-        raise ValueError('Did not find a construction for the sentence tree. Tree: {}'.format(tree))
-    print('Using production <{}> for node {}.'.format(' '.join(sentential_form), tree.label()))
+        sentential_form = [st.label() for st in tree]
+        print('No production found. Using source order <{}> for node {}.'.format(' '.join(sentential_form), tree.label()))
     # Build a list of sentence components
     sentence_components = list()
     for token in sentential_form:
