@@ -10,7 +10,7 @@ import inspect
 #data structures
 __tree = ET.parse("C:\\Users\\Ocean\\PycharmProjects\\GCOR\\ontology\\HouseholdTasks.owl.xml")
 __root = __tree.getroot()
-__idiom_dict = {"clean as a whistle":"一尘不染", "clean house":"通吃", "cleaned someone's clock":"淘汰出局", "and":"和", "or":"或"}
+__idiom_dict = {"clean as a whistle":"一尘不染", "clean house":"通吃", "cleaned someone's clock":"淘汰出局", "and":"和", "or":"或", "am":"", "I":"我"}
 #tags
 __tag_for_individuals = "{http://www.w3.org/2002/07/owl#}NamedIndividual"
 __tag_for_type = "{http://www.w3.org/1999/02/22-rdf-syntax-ns#}type"
@@ -43,14 +43,19 @@ def find_in_cache(phrase):
 
 	
 
-#		search node's dictionary for target language word
-def find_target_language_translation(class_name, language):
+def child_node_iterator(class_name):
 	for child in __root.iter(__tag_for_individuals):
 		for class_info in child.iter(__tag_for_type):
 			if class_info.attrib[__key_for_type_info].split("#")[-1] == class_name:
 				for class_comment in child.iter(__tag_for_comment):
-					if class_comment.text == language:
-						return child.attrib[__key_for_individual_info].split("#")[-1]
+					yield child, class_comment
+
+
+#		search node's dictionary for target language word
+def find_target_language_translation(class_name, language):
+	for child, class_comment in child_node_iterator(class_name):
+		if class_comment.text == language:
+			return child.attrib[__key_for_individual_info].split("#")[-1]
 	return None
 
 #		starts at root of the of the parse tree and checks if the
@@ -59,6 +64,7 @@ def find_best_translation(parse_tree, translation):
 
 	for root in parse_tree:
 		if(isinstance(root, str)):
+			translation.append(root)
 			return
 		phrase = " ".join(root.leaves())
 		class_of = find_class_of(phrase)
