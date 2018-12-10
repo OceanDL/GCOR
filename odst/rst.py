@@ -8,7 +8,7 @@ import types
 import inspect
 
 #data structures
-__tree = ET.parse("C:\\Users\\grayson\\GCOR\\ontology\\HouseholdTasks.owl.xml")
+__tree = ET.parse("C:\\Users\\Ocean\\PycharmProjects\\GCOR\\ontology\\HouseholdTasks.owl.xml")
 __root = __tree.getroot()
 __idiom_dict = {"clean as a whistle":"一尘不染", "clean house":"通吃", "cleaned someone's clock":"淘汰出局", "and":"和", "or":"或"}
 #tags
