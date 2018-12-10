@@ -480,6 +480,1490 @@
     <owl:Class rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work">
         <rdfs:subClassOf rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#HouseholdTasks"/>
     </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#bake -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#bake">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boil_water -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boil_water">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_bathroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_bathroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_bedroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_bedroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_counter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_counter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_floor -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_floor">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_kitchen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_kitchen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_sink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_sink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_stove -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_stove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_bedroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_bedroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_window -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_window">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_toilet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_toilet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_sink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_sink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_toilet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_toilet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cook -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cook">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dishwasher -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dishwasher">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dishwasher"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dog_care -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dog_care">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dog_care"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dust -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dust">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#feed_dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#feed_dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#feed_dog"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_plumbing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_plumbing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_plumbing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_sink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_sink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_sink"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_toilet -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_toilet">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_toilet"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#flip_switch -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#flip_switch">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#flip_switch"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fold_clothes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fold_clothes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#food_preparation -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#food_preparation">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#food_preparation"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#get_mail -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#get_mail">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#get_mail"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repair -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repair">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#household_task -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#household_task">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#HouseholdTasks"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#iron -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#iron">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#laundry -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#laundry">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#laundry"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_bed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_bed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_coffee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_coffee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_the_bed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#make_the_bed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mop -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mop">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mow_the_lawn -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mow_the_lawn">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mow_the_lawn"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_drawer -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_drawer">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_drawer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_furniture -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_furniture">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_furniture"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_garage -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_garage">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_garage"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_office -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_office">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_office"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_tools -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_tools">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_tools"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organizing -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organizing">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#planting -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#planting">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#planting"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#plug_in -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#plug_in">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#plug_in"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pour_drink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pour_drink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#repair_wall -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#repair_wall">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#repair_wall"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#replace_light_bulb -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#replace_light_bulb">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#replace_light_bulb"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serve_food -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serve_food">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#set_the_table -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#set_the_table">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweep -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweep">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throwing_away -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throwing_away">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#trimming_a_bush -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#trimming_a_bush">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#trimming_a_bush"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#turn_on_oven -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#turn_on_oven">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#turn_on_oven"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuum -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuum">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#walk_dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#walk_dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#walk_dog"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_clothes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_clothes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dishes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dishes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dog -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dog">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dog"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_car -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_car">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plant -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plant">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants"/>
+        <rdfs:comment>english</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#weeding -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#weeding">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#weeding"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#上菜 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#上菜">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修剪树木 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修剪树木">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#trimming_a_bush"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修剪草坪 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修剪草坪">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mow_the_lawn"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修墙 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修墙">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#repair_wall"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修水槽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修水槽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_sink"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修水管 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修水管">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_plumbing"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修马桶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#修马桶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_toilet"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#倒饮料 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#倒饮料">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#做饭 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#做饭">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#准备食材 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#准备食材">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#food_preparation"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#刷水槽 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#刷水槽">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#刷马桶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#刷马桶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#取信 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#取信">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#get_mail"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#叠衣服 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#叠衣服">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#启动烤箱 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#启动烤箱">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#turn_on_oven"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#吸尘 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#吸尘">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#喂狗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#喂狗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#feed_dog"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#家务 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#家务">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#HouseholdTasks"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#布置餐桌 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#布置餐桌">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#开关 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#开关">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#flip_switch"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#房屋维修 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#房屋维修">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫卧室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫卧室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫厨房 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫厨房">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫台面 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫台面">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫浴室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打扫卫生间">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打理庭院 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#打理庭院">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#扔掉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#扔掉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#扫地 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#扫地">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#把家具摆放整齐 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#把家具摆放整齐">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_furniture"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#换灯泡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#换灯泡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#replace_light_bulb"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#掸土 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#掸土">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#插上插头 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#插上插头">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#plug_in"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#擦地 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#擦地">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#擦窗户 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#擦窗户">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理办公室 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理办公室">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_office"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理工具 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理工具">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_tools"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理抽屉 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理抽屉">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_drawer"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理车库 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#整理车库">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_garage"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗的衣服 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗的衣服">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#laundry"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗碗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗碗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗碗机 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗碗机">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dishwasher"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗衣服 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗衣服">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗车 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#洗车">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#清扫地面 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#清扫地面">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#清理炉灶 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#清理炉灶">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#溜狗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#溜狗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#walk_dog"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#烘烤 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#烘烤">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#烧水 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#烧水">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#照顾狗 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#照顾狗">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dog_care"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#煮咖啡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#煮咖啡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#熨衣服 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#熨衣服">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#种植 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#种植">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#planting"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#给植物浇水 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#给植物浇水">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#给狗洗澡 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#给狗洗澡">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dog"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#铺床 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#铺床">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#除草 -->
+
+    <owl:NamedIndividual rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#除草">
+        <rdf:type rdf:resource="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#weeding"/>
+        <rdfs:comment>mandarin</rdfs:comment>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotations
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#baking">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#boiling_water">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_counter">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_sink">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_stove">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_the_toilet">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#clean_window">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bathroom">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_bedroom">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_floors">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cleaning_the_kitchen">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#cooking">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dishwasher">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dog_care">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#dusting">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#feed_dog">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_plumbing">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_sink">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#fix_toilet">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#flip_switch">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#folding_clothes">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#food_preparation">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#get_mail">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#home_repairs">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#ironing">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#laundry">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_coffee">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#making_the_bed">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mopping">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#mow_the_lawn">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_drawer">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_furniture">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_garage">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_office">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#organize_tools">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#planting">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#plug_in">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#pouring_drink">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#repair_wall">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#replace_light_bulb">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#serving_food">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#setting_the_table">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#sweeping">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#throw_away">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#trimming_a_bush">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#turn_on_oven">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#vacuuming">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#walk_dog">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_car">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#wash_dog">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_clothes">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#washing_dishes">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#water_the_plants">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#weeding">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
+    <rdf:Description rdf:about="http://www.semanticweb.org/grayson/ontologies/2018/9/HouseholdTasks#yard_work">
+        <rdfs:comment>english</rdfs:comment>
+    </rdf:Description>
 </rdf:RDF>
 
 
